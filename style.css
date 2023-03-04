@@ -77,6 +77,8 @@ button{
 .imagearray, .centercontent{
     display:flex;
     justify-content: space-around;
+    
+
 }
 .centercontent{
     flex-direction: column;
@@ -96,4 +98,9 @@ button{
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+.imgcontainer{
+    height: 200px;
+    width: 200px;
+    justify-content: space-around;
 }
