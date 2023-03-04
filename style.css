@@ -79,12 +79,15 @@ button{
     justify-content: space-around;
     align-items: center;
 }
+.imagearray{
+    size: auto;
+}
 .centercontent{
     flex-direction: column;
     align-items: center;
     padding-left: 300px;
     padding-right: 300px;
-    padding-bottom: 50px;
+    padding-bottom: 100px;
     justify-content: center;
 }
 .testimonialattrib, .centertitle{
