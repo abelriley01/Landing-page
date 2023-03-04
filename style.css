@@ -1,7 +1,4 @@
-.body{
-    padding-left: 200px;
-    padding-right: 200px;
-}
+
 .header{
     display: flex;
     align-items: flex-start;
@@ -34,14 +31,14 @@ a{
     display: flex;
     background-color: #1F2937;
     width: 100%;
+    justify-content:center;
 }
 
 .left-content{
     display: flex;
     flex-direction: column;
     justify-content:center;
-    align-items: center;
-    margin-left: 300px;
+    align-items: center; 
     margin-right: 150px;
     margin-top: 100px;
     margin-bottom:100px;
@@ -62,6 +59,7 @@ button{
     color: #F9FAF8;
 }
 .img1{
+    display: flex;
     justify-content: flex-end;
     margin-top: 100px;
     margin-top: 100px;
@@ -69,6 +67,8 @@ button{
     background-color: lightgrey;
     height: 200px;
     width: 500px;
+    justify-content: center;
+    align-items: center;
 }
 .herosub{
     font-size: 18px;
@@ -107,11 +107,13 @@ button{
 .imgcontainer{
     height: 200px;
     width: 200px;
-    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
     box-sizing: border-box;
     border-radius: 15px;
     border: 8px solid #3882F6 ;
     padding-bottom: 20px;
+    display: flex;
 }
 .imgtext{
     margin-top: 10px;
@@ -139,4 +141,50 @@ button{
     font-size: 36px;
     color: #1F2937;
     font-style: italic;
+}
+.calltoaction{
+    height: 200px;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.upperfooter{
+    background-color: #3882f6;
+    display: flex;
+    justify-content: center;
+    border-radius: 15px;
+    align-items: center;
+    width: 1000px;
+}
+.upperfootertext{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+    padding-left: 100px;
+    padding-bottom: 50px;
+    padding-right: 50px;
+    font-size: 22px;
+}
+
+#signupbutton{
+    border-color: white;
+    border: 4px solid;
+    height: 50px;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    background-color: #1F2937;
+    color: white;
+    height: 80px;
+    align-items: center;
+    font-size: 22px;
+    margin-top: 50px;
+}
+.call{
+    padding: 10px;
 }
